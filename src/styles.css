@@ -36,7 +36,7 @@ img { display: block; max-width: 100%; }
 .header-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; }
 .brand-link, .footer-brand-link { display: inline-flex; align-items: center; }
 .brand-lockup { display: inline-flex; align-items: center; gap: 10px; direction: ltr; }
-.brand-mark { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 13px; background: linear-gradient(145deg, #e4c36f, #c99b3d); color: var(--deep); font-family: 'Reem Kufi', sans-serif; font-size: 23px; font-weight: 700; box-shadow: 0 6px 15px rgba(214, 174, 86, .18); }
+.brand-mark-image { display: block; flex: 0 0 auto; width: 54px; height: 38px; object-fit: contain; }
 .brand-copy { display: flex; flex-direction: column; align-items: flex-end; direction: rtl; line-height: 1; gap: 4px; }
 .brand-copy strong { color: #e4c36f; font: 600 17px 'Reem Kufi', sans-serif; }
 .brand-copy small { color: rgba(246, 239, 220, .72); direction: ltr; letter-spacing: .28em; font: 500 8px 'IBM Plex Sans Arabic', sans-serif; }
@@ -121,7 +121,7 @@ img { display: block; max-width: 100%; }
 .site-footer::before { position: absolute; inset: 0; content: ''; opacity: .12; background-image: linear-gradient(rgba(218,185,102,.24) 1px, transparent 1px), linear-gradient(90deg, rgba(218,185,102,.22) 1px, transparent 1px); background-size: 38px 38px; mask-image: linear-gradient(90deg, transparent, black 18%, black 82%, transparent); }
 .footer-inner { position: relative; display: grid; grid-template-columns: 1.05fr 1fr; gap: 28px 70px; padding-block: 38px 23px; }
 .footer-brand { max-width: 410px; }
-.footer-brand .brand-mark { width: 40px; height: 40px; }
+.footer-brand .brand-mark-image { width: 48px; height: 34px; }
 .footer-brand p { max-width: 390px; margin: 14px 0 0; color: rgba(239,239,224,.68); font-size: 11px; line-height: 1.9; }
 .footer-locations h2 { margin: 5px 0 13px; color: var(--gold-light); font: 600 15px 'Reem Kufi', sans-serif; }
 .footer-location-links { display: flex; flex-wrap: wrap; gap: 7px 17px; }
@@ -232,7 +232,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 760px) {
   .page-width { width: min(100% - 36px, 600px); }
   .site-header { height: 64px; }
-  .brand-mark { width: 38px; height: 38px; border-radius: 12px; font-size: 21px; }
+  .brand-mark-image { width: 47px; height: 33px; }
   .mobile-menu-button { display: grid; }
   .main-nav { display: none; position: absolute; inset-inline: 0; top: 63px; flex-direction: column; align-items: stretch; gap: 0; padding: 8px 18px 14px; border-top: 1px solid rgba(255,255,255,.1); background: rgba(6,39,34,.985); box-shadow: 0 15px 22px rgba(0,0,0,.18); }
   .main-nav.is-open { display: flex; }

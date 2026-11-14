@@ -20,7 +20,7 @@ function ScrollReset() {
 export function BrandMark() {
   return (
     <span className="brand-lockup" aria-label="تجارة TJARA">
-      <span className="brand-mark" aria-hidden="true">ت</span>
+      <img className="brand-mark-image" src={`${import.meta.env.BASE_URL}tjara-logo.png`} alt="" aria-hidden="true" />
       <span className="brand-copy"><strong>تجارة</strong><small>TJARA</small></span>
     </span>
   );
