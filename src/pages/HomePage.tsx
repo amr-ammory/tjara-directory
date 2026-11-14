@@ -43,6 +43,9 @@ export function HomePage() {
             <div><strong>{sectors.length}</strong><span>قطاعات صناعية</span></div>
             <div><strong>{governorates.length}</strong><span>محافظات</span></div>
           </div>
+          <figure className="hero-pride-artwork">
+            <img src={assetUrl('/images/brand/syrian-industry-pride.png')} alt="فخر الصناعة السورية — النسر السوري" loading="lazy" />
+          </figure>
         </div>
       </section>
 
