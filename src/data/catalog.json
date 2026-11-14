@@ -1,0 +1,546 @@
+{
+  "sectors": [
+    {
+      "slug": "textile",
+      "name": "غزل ونسيج وألبسة",
+      "desc": "الأقطان السورية والحرير والملبوسات الجاهزة"
+    },
+    {
+      "slug": "packaging",
+      "name": "تعبئة وتغليف",
+      "desc": "الكرتون والعبوات والتغليف المرن"
+    },
+    {
+      "slug": "food",
+      "name": "أغذية وكونسروة",
+      "desc": "زيت الزيتون والكونسروة والحلويات والبهارات"
+    },
+    {
+      "slug": "pharma",
+      "name": "أدوية ومستحضرات طبية",
+      "desc": "الصناعات الدوائية والمستلزمات الطبية"
+    },
+    {
+      "slug": "engineering",
+      "name": "صناعية وهندسية",
+      "desc": "المعادن والآلات والكابلات ومواد البناء"
+    },
+    {
+      "slug": "chemical",
+      "name": "تقنية وبلاستيك وكيماويات",
+      "desc": "البلاستيك والمنظفات والدهانات والتقنيات"
+    }
+  ],
+  "governorates": [
+    {
+      "slug": "aleppo",
+      "name": "حلب",
+      "zones": [
+        "المدينة الصناعية بالشيخ نجار",
+        "الليرمون",
+        "العرقوب"
+      ],
+      "desc": "العاصمة الاقتصادية لسوريا ومركز صناعة النسيج تاريخياً."
+    },
+    {
+      "slug": "damascus",
+      "name": "دمشق وريفها",
+      "zones": [
+        "المدينة الصناعية بعدرا",
+        "القابون",
+        "الكسوة"
+      ],
+      "desc": "ثقل الصناعات الدوائية والغذائية والهندسية."
+    },
+    {
+      "slug": "homs",
+      "name": "حمص",
+      "zones": [
+        "المدينة الصناعية بحسياء",
+        "المنطقة الصناعية بحمص"
+      ],
+      "desc": "قلب سوريا الصناعي وعقدة النقل بين المحافظات."
+    },
+    {
+      "slug": "hama",
+      "name": "حماة",
+      "zones": [
+        "المنطقة الصناعية بحماة",
+        "محردة"
+      ],
+      "desc": "صناعات غذائية وزراعية ومعدنية متنامية."
+    },
+    {
+      "slug": "latakia",
+      "name": "اللاذقية",
+      "zones": [
+        "المنطقة الصناعية باللاذقية",
+        "المنطقة الحرة"
+      ],
+      "desc": "بوابة التصدير البحري وصناعات التبغ والأغذية."
+    },
+    {
+      "slug": "tartus",
+      "name": "طرطوس",
+      "zones": [
+        "المنطقة الصناعية بطرطوس",
+        "الشيخ بدر"
+      ],
+      "desc": "مرفأ استراتيجي وصناعات الإسمنت والزيوت."
+    }
+  ],
+  "factories": [
+    {
+      "slug": "shahba-textile",
+      "name": "معمل الشهباء للغزل والنسيج",
+      "initials": "ش",
+      "sector": "textile",
+      "governorate": "aleppo",
+      "zone": "المدينة الصناعية بالشيخ نجار",
+      "founded": 1978,
+      "employees": "450+",
+      "about": "من أعرق معامل الغزل في حلب، متخصص بغزل القطن السوري طويل التيلة ونسج الأقمشة القطنية والممزوجة بأعلى المعايير.",
+      "certifications": [
+        "ISO 9001",
+        "OEKO-TEX 100"
+      ],
+      "exportCountries": [
+        "العراق",
+        "الأردن",
+        "مصر",
+        "تركيا"
+      ],
+      "exportCapacity": "1,200 طن سنوياً",
+      "phone": "+963 21 000 0001",
+      "whatsapp": "963900000001",
+      "email": "info@shahba.sy",
+      "website": "shahba.sy",
+      "products": [
+        {
+          "name": "خيوط قطنية مسرّحة",
+          "desc": "نمر 20 – 40، قطن سوري 100%",
+          "image": "/images/photo-1528578577235-b963df6db908.jpg"
+        },
+        {
+          "name": "أقمشة قطنية",
+          "desc": "عرض 160–280 سم، ألوان حسب الطلب",
+          "image": "/images/photo-1558171813-4c088753af8f.jpg"
+        }
+      ],
+      "image": "/images/photo-1528578577235-b963df6db908.jpg"
+    },
+    {
+      "slug": "damasco-wear",
+      "name": "دمشقو للألبسة الجاهزة",
+      "initials": "د",
+      "sector": "textile",
+      "governorate": "damascus",
+      "zone": "القابون",
+      "founded": 1995,
+      "employees": "220",
+      "about": "تصنيع ألبسة رجالية ونسائية جاهزة بعلامات خاصة للأسواق الخليجية والأوروبية.",
+      "certifications": [
+        "ISO 9001",
+        "BSCI"
+      ],
+      "exportCountries": [
+        "السعودية",
+        "الإمارات",
+        "ألمانيا"
+      ],
+      "exportCapacity": "300,000 قطعة سنوياً",
+      "phone": "+963 11 000 0002",
+      "whatsapp": "963900000002",
+      "email": "sales@damasco.sy",
+      "website": "damasco.sy",
+      "products": [
+        {
+          "name": "قمصان رجالية",
+          "desc": "قطن مصري وسوري، تفصيل كلاسيكي",
+          "image": "/images/photo-1489987707025-afc232f7ea0f.jpg"
+        },
+        {
+          "name": "أقمشة مطرزة",
+          "desc": "تطريز دمشقي تقليدي",
+          "image": "/images/photo-1558171813-4c088753af8f.jpg"
+        }
+      ],
+      "image": "/images/photo-1489987707025-afc232f7ea0f.jpg"
+    },
+    {
+      "slug": "adra-pack",
+      "name": "عدرا للتعبئة والتغليف",
+      "initials": "ع",
+      "sector": "packaging",
+      "governorate": "damascus",
+      "zone": "المدينة الصناعية بعدرا",
+      "founded": 2005,
+      "employees": "160",
+      "about": "حلول تغليف متكاملة من الكرتون المضلّع والطباعة الأوفست للعبوات الغذائية والدوائية.",
+      "certifications": [
+        "ISO 9001",
+        "ISO 22000"
+      ],
+      "exportCountries": [
+        "لبنان",
+        "العراق"
+      ],
+      "exportCapacity": "25 مليون علبة سنوياً",
+      "phone": "+963 11 000 0003",
+      "whatsapp": "963900000003",
+      "email": "info@adrapack.sy",
+      "website": "adrapack.sy",
+      "products": [
+        {
+          "name": "كرتون مضلّع",
+          "desc": "3 و5 طبقات بطباعة حتى 6 ألوان",
+          "image": "/images/photo-1607166452427-7e4477079cb9.jpg"
+        },
+        {
+          "name": "عبوات PET",
+          "desc": "سعات 250 مل – 5 لتر",
+          "image": "/images/photo-1616118132534-381148898bb4.jpg"
+        }
+      ],
+      "image": "/images/photo-1607166452427-7e4477079cb9.jpg"
+    },
+    {
+      "slug": "hasya-pack",
+      "name": "حسياء للعبوات البلاستيكية",
+      "initials": "ح",
+      "sector": "packaging",
+      "governorate": "homs",
+      "zone": "المدينة الصناعية بحسياء",
+      "founded": 2010,
+      "employees": "95",
+      "about": "تصنيع العبوات البلاستيكية والأغطية بالحقن والنفخ لقطاعات الأغذية والمنظفات.",
+      "certifications": [
+        "ISO 9001"
+      ],
+      "exportCountries": [
+        "الأردن"
+      ],
+      "exportCapacity": "40 مليون قطعة سنوياً",
+      "phone": "+963 31 000 0004",
+      "whatsapp": "963900000004",
+      "email": "info@hasyapack.sy",
+      "website": "hasyapack.sy",
+      "products": [
+        {
+          "name": "عبوات مياه",
+          "desc": "PET شفاف عالي النقاء",
+          "image": "/images/photo-1616118132534-381148898bb4.jpg"
+        },
+        {
+          "name": "صناديق شحن",
+          "desc": "كرتون مقوّى للتصدير",
+          "image": "/images/photo-1607166452427-7e4477079cb9.jpg"
+        }
+      ],
+      "image": "/images/photo-1616118132534-381148898bb4.jpg"
+    },
+    {
+      "slug": "zaytouna-food",
+      "name": "الزيتونة للصناعات الغذائية",
+      "initials": "ز",
+      "sector": "food",
+      "governorate": "latakia",
+      "zone": "المنطقة الصناعية باللاذقية",
+      "founded": 1988,
+      "employees": "300",
+      "about": "عصر وتعبئة زيت الزيتون البكر الممتاز وإنتاج الكونسروة والمخللات من خيرات الساحل السوري.",
+      "certifications": [
+        "ISO 22000",
+        "HACCP",
+        "Halal"
+      ],
+      "exportCountries": [
+        "السعودية",
+        "الكويت",
+        "كندا",
+        "السويد"
+      ],
+      "exportCapacity": "3,000 طن سنوياً",
+      "phone": "+963 41 000 0005",
+      "whatsapp": "963900000005",
+      "email": "export@zaytouna.sy",
+      "website": "zaytouna.sy",
+      "products": [
+        {
+          "name": "زيت زيتون بكر ممتاز",
+          "desc": "حموضة أقل من 0.8%",
+          "image": "/images/photo-1474979266404-7eaacbcd87c5.jpg"
+        },
+        {
+          "name": "كونسروة خضار",
+          "desc": "بازلاء، فول، حمص مسلوق",
+          "image": "/images/photo-1584269600464-37b1b58a9fe7.jpg"
+        }
+      ],
+      "image": "/images/photo-1474979266404-7eaacbcd87c5.jpg"
+    },
+    {
+      "slug": "hama-sweets",
+      "name": "حلويات العاصي",
+      "initials": "ع",
+      "sector": "food",
+      "governorate": "hama",
+      "zone": "المنطقة الصناعية بحماة",
+      "founded": 1965,
+      "employees": "120",
+      "about": "حلويات شرقية تقليدية بوصفات حموية أصيلة، معبّأة للتصدير بمدة صلاحية طويلة.",
+      "certifications": [
+        "HACCP",
+        "Halal"
+      ],
+      "exportCountries": [
+        "الإمارات",
+        "قطر",
+        "ألمانيا"
+      ],
+      "exportCapacity": "450 طن سنوياً",
+      "phone": "+963 33 000 0006",
+      "whatsapp": "963900000006",
+      "email": "info@assi-sweets.sy",
+      "website": "assi-sweets.sy",
+      "products": [
+        {
+          "name": "حلاوة الجبن",
+          "desc": "مبرّدة ومعبأة بعناية",
+          "image": "/images/photo-1519676867240-f03562e64548.jpg"
+        },
+        {
+          "name": "معمول بالفستق",
+          "desc": "فستق حلبي فاخر",
+          "image": "/images/photo-1519676867240-f03562e64548.jpg"
+        }
+      ],
+      "image": "/images/photo-1519676867240-f03562e64548.jpg"
+    },
+    {
+      "slug": "sham-pharma",
+      "name": "الشام للصناعات الدوائية",
+      "initials": "ش",
+      "sector": "pharma",
+      "governorate": "damascus",
+      "zone": "المدينة الصناعية بعدرا",
+      "founded": 1992,
+      "employees": "520",
+      "about": "إنتاج أكثر من 300 مستحضر دوائي وفق ممارسات التصنيع الجيد GMP، بخطوط حديثة للمضادات الحيوية والشرابات.",
+      "certifications": [
+        "GMP",
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "exportCountries": [
+        "العراق",
+        "اليمن",
+        "السودان",
+        "ليبيا"
+      ],
+      "exportCapacity": "80 مليون عبوة سنوياً",
+      "phone": "+963 11 000 0007",
+      "whatsapp": "963900000007",
+      "email": "export@shampharma.sy",
+      "website": "shampharma.sy",
+      "products": [
+        {
+          "name": "أقراص ومضغوطات",
+          "desc": "مسكنات ومضادات التهاب",
+          "image": "/images/photo-1584308666744-24d5c474f2ae.jpg"
+        },
+        {
+          "name": "شرابات أطفال",
+          "desc": "بنكهات مقبولة وتركيبات آمنة",
+          "image": "/images/photo-1471864190281-a93a3070b6de.jpg"
+        }
+      ],
+      "image": "/images/photo-1584308666744-24d5c474f2ae.jpg"
+    },
+    {
+      "slug": "ugarit-pharma",
+      "name": "أوغاريت للمستحضرات الطبية",
+      "initials": "أ",
+      "sector": "pharma",
+      "governorate": "tartus",
+      "zone": "المنطقة الصناعية بطرطوس",
+      "founded": 2003,
+      "employees": "180",
+      "about": "مستحضرات تجميلية وطبية ومكملات غذائية بمواد طبيعية من الساحل السوري.",
+      "certifications": [
+        "GMP",
+        "ISO 22716"
+      ],
+      "exportCountries": [
+        "لبنان",
+        "الأردن"
+      ],
+      "exportCapacity": "12 مليون عبوة سنوياً",
+      "phone": "+963 43 000 0008",
+      "whatsapp": "963900000008",
+      "email": "info@ugarit.sy",
+      "website": "ugarit.sy",
+      "products": [
+        {
+          "name": "مكملات غذائية",
+          "desc": "فيتامينات ومعادن",
+          "image": "/images/photo-1584308666744-24d5c474f2ae.jpg"
+        },
+        {
+          "name": "صابون الغار الطبي",
+          "desc": "زيت زيتون وغار طبيعي",
+          "image": "/images/photo-1600857544200-b2f666a9a2ec.jpg"
+        }
+      ],
+      "image": "/images/photo-1584308666744-24d5c474f2ae.jpg"
+    },
+    {
+      "slug": "orontes-steel",
+      "name": "العاصي للصناعات المعدنية",
+      "initials": "م",
+      "sector": "engineering",
+      "governorate": "homs",
+      "zone": "المدينة الصناعية بحسياء",
+      "founded": 1999,
+      "employees": "380",
+      "about": "إنتاج حديد التسليح والمقاطع المعدنية والهياكل الفولاذية لمشاريع البناء وإعادة الإعمار.",
+      "certifications": [
+        "ISO 9001",
+        "CE"
+      ],
+      "exportCountries": [
+        "العراق",
+        "لبنان"
+      ],
+      "exportCapacity": "150,000 طن سنوياً",
+      "phone": "+963 31 000 0009",
+      "whatsapp": "963900000009",
+      "email": "sales@orontes-steel.sy",
+      "website": "orontes-steel.sy",
+      "products": [
+        {
+          "name": "حديد تسليح",
+          "desc": "أقطار 8 – 32 مم",
+          "image": "/images/photo-1504917595217-d4dc5ebe6122.jpg"
+        },
+        {
+          "name": "كابلات كهربائية",
+          "desc": "نحاسية معزولة حتى 1kV",
+          "image": "/images/photo-1544724569-5f546fd6f2b5.jpg"
+        }
+      ],
+      "image": "/images/photo-1504917595217-d4dc5ebe6122.jpg"
+    },
+    {
+      "slug": "aleppo-cables",
+      "name": "حلب للكابلات والأسلاك",
+      "initials": "ك",
+      "sector": "engineering",
+      "governorate": "aleppo",
+      "zone": "المدينة الصناعية بالشيخ نجار",
+      "founded": 2001,
+      "employees": "210",
+      "about": "كابلات طاقة واتصالات وأسلاك منزلية بمواصفات IEC العالمية.",
+      "certifications": [
+        "ISO 9001",
+        "IEC"
+      ],
+      "exportCountries": [
+        "العراق",
+        "الأردن",
+        "ليبيا"
+      ],
+      "exportCapacity": "9,000 طن نحاس سنوياً",
+      "phone": "+963 21 000 0010",
+      "whatsapp": "963900000010",
+      "email": "info@alcables.sy",
+      "website": "alcables.sy",
+      "products": [
+        {
+          "name": "كابلات طاقة",
+          "desc": "منخفضة ومتوسطة التوتر",
+          "image": "/images/photo-1544724569-5f546fd6f2b5.jpg"
+        },
+        {
+          "name": "هياكل معدنية",
+          "desc": "لوحات توزيع وحوامل",
+          "image": "/images/photo-1504917595217-d4dc5ebe6122.jpg"
+        }
+      ],
+      "image": "/images/photo-1544724569-5f546fd6f2b5.jpg"
+    },
+    {
+      "slug": "levant-plast",
+      "name": "المشرق للبلاستيك والكيماويات",
+      "initials": "م",
+      "sector": "chemical",
+      "governorate": "aleppo",
+      "zone": "الليرمون",
+      "founded": 2008,
+      "employees": "140",
+      "about": "أنابيب PVC وPE، ومنظفات سائلة وبودرة، ودهانات مائية وزيتية.",
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "exportCountries": [
+        "العراق",
+        "تركيا"
+      ],
+      "exportCapacity": "18,000 طن سنوياً",
+      "phone": "+963 21 000 0011",
+      "whatsapp": "963900000011",
+      "email": "info@levantplast.sy",
+      "website": "levantplast.sy",
+      "products": [
+        {
+          "name": "منتجات بلاستيكية",
+          "desc": "حبيبات وأنابيب ومستلزمات",
+          "image": "/images/photo-1611284446314-60a58ac0deb9.jpg"
+        },
+        {
+          "name": "منظفات منزلية",
+          "desc": "سائل جلي ومساحيق غسيل",
+          "image": "/images/photo-1600857544200-b2f666a9a2ec.jpg"
+        }
+      ],
+      "image": "/images/photo-1611284446314-60a58ac0deb9.jpg"
+    },
+    {
+      "slug": "coast-chem",
+      "name": "الساحل للصناعات الكيميائية",
+      "initials": "س",
+      "sector": "chemical",
+      "governorate": "latakia",
+      "zone": "المنطقة الحرة",
+      "founded": 2012,
+      "employees": "75",
+      "about": "تصنيع الدهانات والمواد اللاصقة ومواد العزل للأسواق المحلية والإقليمية.",
+      "certifications": [
+        "ISO 9001"
+      ],
+      "exportCountries": [
+        "لبنان",
+        "قبرص"
+      ],
+      "exportCapacity": "6,000 طن سنوياً",
+      "phone": "+963 41 000 0012",
+      "whatsapp": "963900000012",
+      "email": "info@coastchem.sy",
+      "website": "coastchem.sy",
+      "products": [
+        {
+          "name": "دهانات",
+          "desc": "إكريليك وزيتية",
+          "image": "/images/photo-1611284446314-60a58ac0deb9.jpg"
+        },
+        {
+          "name": "مواد عزل",
+          "desc": "عزل مائي وحراري",
+          "image": "/images/photo-1600857544200-b2f666a9a2ec.jpg"
+        }
+      ],
+      "image": "/images/photo-1611284446314-60a58ac0deb9.jpg"
+    }
+  ]
+}

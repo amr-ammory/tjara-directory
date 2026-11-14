@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","title":"الرئيسية"},{"path":"/factories","title":"دليل المعامل"},{"path":"/factory/:slug","title":"تفاصيل المعمل"},{"path":"/governorates","title":"المحافظات"},{"path":"/governorates/:slug","title":"المحافظة الصناعية"}]}
