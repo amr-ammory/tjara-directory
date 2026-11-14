@@ -6,12 +6,13 @@ import { governorates } from '../lib/catalog';
 function ScrollReset() {
   const location = useLocation();
   useEffect(() => {
+    const behavior: ScrollBehavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
     if (location.hash) {
       window.setTimeout(() => {
-        document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ behavior: 'smooth' });
+        document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ behavior });
       }, 30);
     } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior });
     }
   }, [location.pathname, location.hash]);
   return null;
@@ -47,7 +48,9 @@ export function SiteShell() {
           </nav>
         </div>
       </header>
-      <main className="route-main"><Outlet /></main>
+      <main className="route-main">
+        <div className="route-transition" key={`${location.pathname}${location.search}`}><Outlet /></div>
+      </main>
       <Footer />
     </>
   );
