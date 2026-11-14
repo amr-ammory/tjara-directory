@@ -27,4 +27,4 @@ pnpm preview
 BASE_PATH=/REPOSITORY/ pnpm build
 ```
 
-وعند الاستضافة على نطاق جذر يمكن استخدام `pnpm build` مباشرةً. يجب تفعيل GitHub Pages من إعدادات المستودع إذا أُريد نشر نسخة عامة؛ رفع الشيفرة إلى GitHub لا ينشر الموقع تلقائياً.
+وعند الاستضافة على نطاق جذر يمكن استخدام `pnpm build` مباشرةً. بعد إعداد GitHub Pages على وضع **GitHub Actions**، ينفّذ workflow في `.github/workflows/deploy-pages.yml` فحوص TypeScript والبناء ثم ينشر `dist/` تلقائياً عند كل دفع إلى `main` أو عند تشغيله يدوياً. رابط المشروع هو `https://amr-ammory.github.io/tjara-directory/`.
