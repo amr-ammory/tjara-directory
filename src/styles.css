@@ -40,7 +40,7 @@ img { display: block; max-width: 100%; }
 .header-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; }
 .brand-link, .footer-brand-link { display: inline-flex; align-items: center; }
 .brand-lockup { display: inline-flex; align-items: center; gap: 10px; direction: ltr; }
-.brand-mark-image { display: block; flex: 0 0 auto; width: 54px; height: 38px; object-fit: contain; }
+.brand-mark-image { display: block; flex: 0 0 auto; width: 54px; height: 44px; object-fit: contain; }
 .brand-copy { display: flex; flex-direction: column; align-items: flex-end; direction: rtl; line-height: 1; gap: 4px; }
 .brand-copy strong { color: #b9a779; font: 600 17px 'IBM Plex Sans Arabic', sans-serif; }
 .brand-copy small { color: rgba(246, 239, 220, .72); direction: ltr; letter-spacing: .28em; font: 500 8px 'IBM Plex Sans Arabic', sans-serif; }
@@ -242,7 +242,7 @@ button:not(:disabled):active, .button:active { transform: translateY(1px) scale(
 @media (max-width: 760px) {
   .page-width { width: min(100% - 36px, 600px); }
   .site-header { height: 64px; }
-  .brand-mark-image { width: 47px; height: 33px; }
+  .brand-mark-image { width: 47px; height: 38px; }
   .mobile-menu-button { display: grid; }
   .main-nav { display: flex; position: absolute; inset-inline: 0; top: 63px; flex-direction: column; align-items: stretch; gap: 0; max-height: 0; overflow: hidden; padding: 0 18px; border-top: 1px solid transparent; background: rgba(0,38,35,.985); box-shadow: 0 15px 22px rgba(0,0,0,.18); opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(-8px); transition: max-height var(--motion-smooth) var(--motion-ease), opacity 240ms var(--motion-ease), transform var(--motion-smooth) var(--motion-ease), padding var(--motion-smooth) var(--motion-ease), border-color var(--motion-smooth) var(--motion-ease), visibility 0s linear var(--motion-smooth); }
   .main-nav.is-open { max-height: 260px; padding: 8px 18px 14px; border-top-color: rgba(255,255,255,.1); opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); transition: max-height var(--motion-smooth) var(--motion-ease), opacity 240ms var(--motion-ease), transform var(--motion-smooth) var(--motion-ease), padding var(--motion-smooth) var(--motion-ease), border-color var(--motion-smooth) var(--motion-ease), visibility 0s; }
