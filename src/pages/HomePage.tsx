@@ -1,5 +1,5 @@
 import { useState, type FormEvent, type ReactNode } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowUpLeft, Cog, FlaskConical, Search } from 'lucide-react';
 import { FactoryCard } from '../components/FactoryCard';
 import { assetUrl, countFactories, factories, governorates, sectors } from '../lib/catalog';
@@ -55,13 +55,13 @@ export function HomePage() {
           {sectors.map((sector) => {
             const iconSource = sectorArt[sector.slug];
             return (
-              <a className="sector-card" href={`/factories?sector=${sector.slug}`} key={sector.slug}>
+              <Link className="sector-card" to={`/factories?sector=${sector.slug}`} key={sector.slug}>
                 <span className="sector-illustration">
                   {iconSource ? <img src={assetUrl(iconSource)} alt="" loading="lazy" /> : sector.slug === 'engineering' ? <Cog size={35} strokeWidth={1.5} /> : <FlaskConical size={35} strokeWidth={1.5} />}
                 </span>
                 <span className="sector-copy"><strong>{sector.name}</strong><small>{sector.desc}</small></span>
                 <ArrowUpLeft size={17} className="sector-arrow" aria-hidden="true" />
-              </a>
+              </Link>
             );
           })}
         </div>
@@ -69,27 +69,27 @@ export function HomePage() {
 
       <section className="governorate-section" id="governorates">
         <div className="page-width content-section">
-          <SectionHeading title="المحافظات والمناطق الصناعية" action={<a className="text-link" href="/governorates">عرض الكل <ArrowLeft size={16} /></a>} />
+          <SectionHeading title="المحافظات والمناطق الصناعية" action={<Link className="text-link" to="/governorates">عرض الكل <ArrowLeft size={16} /></Link>} />
           <div className="governorate-grid">
             {governorates.map((governorate) => (
-              <a className="governorate-card" href={`/governorates/${governorate.slug}`} key={governorate.slug}>
+              <Link className="governorate-card" to={`/governorates/${governorate.slug}`} key={governorate.slug}>
                 <div className="governorate-card-top"><h3>{governorate.name}</h3><span>{countFactories(governorate.slug)} معامل</span></div>
                 <p>{governorate.zones.join(' · ')}</p>
                 <span className="governorate-arrow" aria-hidden="true"><ArrowLeft size={16} /></span>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
       <section className="content-section page-width featured-section" id="featured">
-        <SectionHeading title="معامل مميّزة" action={<a className="text-link" href="/factories">عرض الكل <ArrowLeft size={16} /></a>} />
+        <SectionHeading title="معامل مميّزة" action={<Link className="text-link" to="/factories">عرض الكل <ArrowLeft size={16} /></Link>} />
         <div className="factory-grid featured-grid">
           {factories.slice(0, 4).map((factory) => <FactoryCard factory={factory} key={factory.slug} />)}
         </div>
         <div className="catalog-cta">
           <span>من النسيج إلى الصناعات الدوائية — اكتشف شركاء الصناعة السورية.</span>
-          <a href="/factories">استكشف الدليل <ArrowLeft size={16} /></a>
+          <Link to="/factories">استكشف الدليل <ArrowLeft size={16} /></Link>
         </div>
       </section>
     </>

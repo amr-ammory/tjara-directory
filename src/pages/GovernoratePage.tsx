@@ -11,7 +11,7 @@ export function GovernoratePage() {
   const localFactories = factories.filter((factory) => factory.governorate === governorate.slug);
   return (
     <section className="governorate-detail-page page-width">
-      <div className="breadcrumbs"><Link to="/">الرئيسية</Link><span>/</span><a href="/#governorates">المحافظات</a><span>/</span><span>{governorate.name}</span></div>
+      <div className="breadcrumbs"><Link to="/">الرئيسية</Link><span>/</span><Link to="/#governorates">المحافظات</Link><span>/</span><span>{governorate.name}</span></div>
       <div className="governorate-detail-hero">
         <span className="page-eyebrow">المناطق الصناعية السورية</span>
         <h1>{governorate.name}</h1>
